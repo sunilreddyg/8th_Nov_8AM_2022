@@ -1,0 +1,127 @@
+Types of testings:-->
+
+	1. Unit Testing
+	2. Integration Testing
+	3. System Testing
+	4. User acceptance Testing
+
+
+	
+	UnitTesting:-->
+		=> Unit Testing done by the programers
+		=> During this test programer test each
+		   program in isolocation [Without depedencies]
+		=> Inorder to condut unit testing programer
+			follow below sub tests.
+
+		1. Basic Path Testing
+		2. Controls Structure Tesitng
+		3. Program technique Testing
+		4. Mutation Testing
+
+
+	Path Testing:-->
+		=> During this test programer execute
+		   each program more than two times
+		   to cover all executable areas.
+
+	Example:-->
+
+		age=17
+		if age > 18
+		    print "Valid"
+		else
+		    print "Invalid"
+
+		=> First time to execute true condition to verify
+		=> Second time execute false condition to verify
+
+	Example2:-->
+
+		age=21
+		if age > 18
+		   print "valid age"
+			if(age > 60)
+		   	   print "age exceded terms and conditions applied"
+		else
+		   print "Invalid age"	
+
+
+		1. Testwith valid age >18  and Lessthan 60
+		2. Test with invalid age <18
+		4. Test with range > 18  and > 60
+
+
+	Coverage Testing:-->[Control structure testing]
+
+		Checking Every line of program to verify 
+		whether program is taking all inputs and providing
+		appropriate outputs.
+		
+		=> Coverage testing is similar to  program debugging
+
+
+		Debugging:--> Checking every line of program is
+			       executing without systax error..
+		
+	Program Technique Testing:-->
+
+		=> During this test programmer check speed of 
+		   program execution
+		=> Cheking all programs are executing with
+		   resonable speed.
+		=> Incase program speed is not resonable
+		    programer make changes in program to improve
+		    a speed without disturbing main architecuture.
+
+		What kind changes programer will do?
+			=> Using low memory variables
+			=> Removing unwanted code
+			=> Optimize program into less lines
+
+
+		StartTime
+			Program A
+		total=EndTime-starttime
+		    
+	Mutation Testing:-->
+
+					
+	=>During this test programmer create more mutant programs 
+		and execute each mutant program with some changes. 
+
+	=>After execution if mutant build performing
+		better than real build program then developer replace 
+		real program with mutant program. 
+
+	=>Incase mutant build failed programmer 
+		decleare that one as dead code.
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+	
